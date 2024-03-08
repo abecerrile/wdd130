@@ -28,3 +28,68 @@ footer {
   border-top: 1px solid #ccc;
   text-align: center;
 }
+/* Add this to your existing style.css file */
+
+/* Resetting some default styles */
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Navigation styles */
+nav {
+  /* Add your styles for the navigation */
+}
+
+nav a {
+  /* Add your styles for navigation links */
+}
+
+/* Heading 1 styles */
+h1 {
+  /* Add your styles for h1 */
+}
+
+/* Image styles */
+img {
+  /* Add your styles for all images */
+}
+
+/* Main styles */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Aside styles */
+aside {
+  width: 25%;
+  margin: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Aside image styles */
+aside img {
+  width: 100%;
+  height: auto;
+}
+
+/* Paragraph styles */
+p {
+  padding: 0;
+}
+
+/* Footer styles */
+footer {
+  margin-top: 20px;
+  border-top: 1px solid #ccc;
+  text-align: center;
+}
