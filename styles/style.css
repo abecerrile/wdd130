@@ -9,87 +9,41 @@ aside {
   color: #333;
   text-align: center;
 }
+p {
+  padding: 0;
+}
+footer {
+  margin-top: 20px;
+  border-top: 1px solid #ccc;
+  text-align: center;
+}
 
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+  background-color: antiquewhite;
+  padding: 10px;
+}
+
+nav a {
+color: white;
+padding: 10px;
+display: block;
+}
+
+h1 { color: steelblue
+}
 aside img {
   width: 280px;
   height: auto;
 }
 
 main img {
-  width: 100%;
+  width: 150px;
   height: auto;
-}
-
-p {
-  padding: 0;
-}
-
-footer {
-  margin-top: 1em;
-  border-top: 1px solid #000;
-  text-align: center;
-}
-/* Add this to your existing style.css file */
-
-/* Resetting some default styles */
-body, h1, h2, p, ul, li {
-  margin: 0;
-  padding: 0;
-}
-
-/* Global styles */
-body {
-  font-family: 'Open Sans', sans-serif;
-}
-
-/* Navigation styles */
-nav {
-  /* Add your styles for the navigation */
-}
-
-nav a {
-  /* Add your styles for navigation links */
-}
-
-/* Heading 1 styles */
-h1 { color: blue
-
-}
-
-/* Image styles */
-img {
-}
-
-/* Main styles */
-main {
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-/* Aside styles */
-aside {
-  width: 25%;
-  margin: 20px;
-  border: 1px solid #ccc;
-  padding: 10px;
-  background-color: #f4f4f4;
-  color: #333;
-}
-
-/* Aside image styles */
-aside img {
-  width: 100%;
-  height: auto;
-}
-
-/* Paragraph styles */
-p {
-  padding: 0;
-}
-
-/* Footer styles */
-footer {
-  margin-top: 20px;
-  border-top: 1px solid #ccc;
-  text-align: center;
+  border: 1px solid steelblue;
+  padding: 2px;
+  box-shadow: 0 0 30px gray;
 }
