@@ -39,6 +39,7 @@ h1 { color: steelblue
 aside img {
   width: 200px;
   height: auto;
+  text-align: center;
 }
 
 main img {
