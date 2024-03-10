@@ -1,5 +1,3 @@
-/* Add this to your existing style.css file or create a new one */
-
 aside {
   width: 20em;
   margin: 1em;
@@ -9,9 +7,11 @@ aside {
   color: #333;
   text-align: center;
 }
+
 p {
   padding: 0;
 }
+
 footer {
   margin-top: 20px;
   border-top: 1px solid #ccc;
@@ -35,6 +35,7 @@ display: block;
 
 h1 { color: steelblue
 }
+
 aside img {
   width: 280px;
   height: auto;
