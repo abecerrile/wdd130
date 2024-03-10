@@ -5,6 +5,7 @@ body {
     max-width: 960px;
     padding: 20px;
 }
+
 :root {
     --primary-color: #091540;
     --secondary-color: #7692FF;
