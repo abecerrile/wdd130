@@ -12,8 +12,8 @@ body {
     --accent1-color: #ABD2FA;
     --accent2-color: #3D518C;
     
-    --heading-font: 'Oswald', serif;
-    --paragraph-font: 'Serif',serif;
+    --heading-font: 'Oswald',sans-serif;
+    --paragraph-font: 'Serif',sans-serif;
 
     --nav-background-color: #3D518C;
     --nav-link-color:#ABD2FA;
