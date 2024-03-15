@@ -1,3 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 aside {
   width: 20em;
   margin: 1em;
@@ -54,4 +61,19 @@ main {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px; 
+}
+
+/*Class Selector*/
+
+.box {
+  margin: 1 rem;
+  border: 1px solid rgba(0,0,0,.1);
+  padding: 1rem;
+  background-color: #ddd;
+  color: #000; 
+}
+
+aside {
+  width: 20em;
+  text-align: center;
 }
