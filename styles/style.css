@@ -63,6 +63,10 @@ main {
   padding: 20px; 
 }
 
+main {
+  float: right;
+}
+
 /*Class Selector*/
 
 .box {
