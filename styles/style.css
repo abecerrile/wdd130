@@ -73,7 +73,7 @@ main {
   float: right;
 }
 
-/*Class Selector*/
+/*Class Selectors*/
 
 .box {
   margin: 1 rem;
@@ -86,4 +86,5 @@ main {
 aside {
   width: 20em;
   text-align: center;
+  position: relative;
 }
