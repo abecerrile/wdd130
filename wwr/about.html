@@ -6,6 +6,70 @@
     <title>About Us</title>
     <meta name="description" content="The About Us page offers a concise overview of the company's history along with images showcasing the adventure">
     <meta name="author" content="Alberto Becerril">
+    <style>
+        @import url(https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap);
+
+        :root {
+          --primary-color: #336699;
+          --secondary-color: #ff9900;
+          --heading-font: 'Oswald', sans-serif;
+          --body-font: Arial, sans-serif;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+          font-family: var(--heading-font);
+          color: var(--primary-color);
+        }
+
+        p {
+          font-family: var(--body-font);
+          color: #333;
+        }
+
+        a {
+          color: var(--primary-color);
+          text-decoration: none; 
+        }
+
+        .social-media a {
+          text-decoration: none;
+        }
+
+        .container {
+          max-width: 1200px;
+          margin: 0 auto;
+        }
+
+        .hero {
+            position: relative;
+            overflow: hidden; 
+          }
+          
+          .hero img {
+            display: block;
+            width: 100%;
+          }
+          
+          .hero-content {
+            position: absolute;
+            top: 50%;
+            left: 50%; 
+            transform: translate(-50%, -50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            color: white; 
+          }
+          
+          .hero-content h1 {
+            margin-top: 0;
+          }
+          
+          .hero-content article {
+            float: right;
+            width: 50%; 
+            opacity: 0.8; 
+          }
+    </style>
 </head>
 <body>
 <header>
