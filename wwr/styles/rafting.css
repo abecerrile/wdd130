@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
 :root {
-  --primary-color: #336699;
-  --secondary-color: #ff9900;
+  --primary-color: #ff9900;
+  --secondary-color: #336699;
 }
 
 h1, h2, h3, h4, h5, h6 {
