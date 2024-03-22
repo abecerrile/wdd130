@@ -4,19 +4,51 @@
   box-sizing: border-box;
 }
 
+header,
+footer {
+
+}
+
+.grid {
+  max-width: 840px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 20em;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: antiquewhite;
+  padding: 10px;
+}
+
+nav a {
+  color: steelblue;
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+}
+
+h1 {
+  color: steelblue;
+  border-bottom: 1px solid #ccc;
+}
 
 aside {
   width: 20em;
   margin: 1em;
-  border: 1px solid rgba(0,0,0,0.2);
+  border: 1px solid rgba(0, 0, 0, 0.2);
   padding: 1em;
   background-color: #eee;
   color: #333;
   text-align: center;
 }
 
-p {
-  padding: 0;
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 footer {
@@ -29,20 +61,6 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-nav {
-  background-color: antiquewhite;
-  padding: 10px;
-}
-
-nav a {
-color: steelblue;
-padding: 10px;
-display: block;
-}
-
-h1 { color: steelblue
-}
-
 aside img {
   width: 200px;
   height: auto;
@@ -50,7 +68,7 @@ aside img {
 }
 
 aside h2 {
-  position:absolute;
+  position: absolute;
   top: 47px;
   left: 150px;
 }
@@ -63,27 +81,9 @@ main img {
   box-shadow: 0 0 30px gray;
 }
 
-main {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px; 
-}
-
-main {
-  float: right;
-}
-
-/*Class Selectors*/
-
 .box {
-  border: 1px solid rgba(0,0,0,.1);
+  border: 1px solid rgba(0, 0, 0, .1);
   padding: 1rem;
   background-color: #ddd;
-  color: #000; 
-}
-
-aside {
-  width: 20em;
-  text-align: center;
-  position: relative;
+  color: #000;
 }
