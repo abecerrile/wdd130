@@ -5,15 +5,15 @@
 }
 
 header,
-footer {
-
-}
-
+footer,
 .grid {
   max-width: 840px;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 20em;
+}
+
+header,
+footer {
+  text-align: center;
 }
 
 nav {
@@ -35,6 +35,12 @@ h1 {
   border-bottom: 1px solid #ccc;
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: 20em 1fr; /* Set aside to the left, main to the right */
+  gap: 20px;
+}
+
 aside {
   width: 20em;
   margin: 1em;
@@ -46,9 +52,9 @@ aside {
 }
 
 main {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
+  padding: 1em;
+  background-color: #ddd;
+  color: #000;
 }
 
 footer {
@@ -79,11 +85,4 @@ main img {
   border: 1px solid steelblue;
   padding: 2px;
   box-shadow: 0 0 30px gray;
-}
-
-.box {
-  border: 1px solid rgba(0, 0, 0, .1);
-  padding: 1rem;
-  background-color: #ddd;
-  color: #000;
 }
