@@ -35,8 +35,7 @@ h1 {
 
 .grid {
   display: grid;
-  grid-template-columns: 20em 1fr;
-  gap: 20px;
+  align-items: center;
 }
 
 aside {
