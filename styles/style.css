@@ -38,10 +38,17 @@ h1 {
 .grid {
   display: grid;
   align-items: center;
+  grid-template-columns: 1fr 20em;
+  gap: 1em;
+}
+
+main {
+  padding: 1em;
+  background-color: #ddd;
+  color: #000;
 }
 
 aside {
-  width: 20em;
   margin: 1em;
   border: 1px solid rgba(0, 0, 0, 0.2);
   padding: 1em;
@@ -49,12 +56,6 @@ aside {
   color: #333;
   text-align: center;
   position: relative;
-}
-
-main {
-  padding: 1em;
-  background-color: #ddd;
-  color: #000;
 }
 
 footer {
