@@ -53,15 +53,27 @@ a {
   float: right;
 }
   
-  .hero-content h1 {
-    margin-top: 0;
-  }
+.hero-content h1 {
+  margin-top: 0;
+}
   
-  .hero-content article {
-    float: right;
-    width: 50%; 
-    opacity: 0.8; 
-  }
-  .sociallinks a {
-    text-decoration: none;
+.hero-content article {
+  float: right;
+  width: 50%; 
+  opacity: 0.8; 
+}
+
+.sociallinks a {
+  text-decoration: none;
+}
+
+/* Newly added styles */
+.sociallinks {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sociallinks img {
+  width: 30px;
+  margin-left: 10px;
 }
