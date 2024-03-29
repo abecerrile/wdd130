@@ -3,7 +3,8 @@
   }
   
   h1   {
-    color:darkblue
+    text-align: center;
+    color:darkblue;
   }
 
   body {
@@ -13,12 +14,16 @@
   }
 
   img   {
-    margin: 0;
+    display: block;
+    margin: 0 auto;
   }
 
   form {
     max-width: 600px;
-    margin: 0 auto;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
   }
 
   form div {
