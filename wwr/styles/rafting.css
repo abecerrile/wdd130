@@ -199,6 +199,11 @@ button[type="submit"]:hover {
   padding: 0;
   box-sizing: border-box;
 }
+.background {
+  background-image: url('images/rafting-background.jpg');
+  background-size: cover; /* Adjust background size to cover the entire element */
+  background-position: center;
+}
 
 /* Typography */
 body {
