@@ -296,12 +296,11 @@ article p {
 }
 
 .Happy-Rafters {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  text-align: center;
 }
 
 figure {
+  display: inline-block;
   margin: 1rem;
   text-align: center;
   border-radius: 10px;
