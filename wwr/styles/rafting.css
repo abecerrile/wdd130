@@ -360,7 +360,7 @@ figure:hover {
 
 img {
   width: 200px; 
-  height: auto; 
+  height: 200px; 
   border-radius: 10px; 
 }
 
@@ -455,8 +455,8 @@ section {
 }
 
 .adventures img {
-  width: 100%;
-  height: auto;
+  width: 200px;
+  height: 200px;
 }
 
 .adventures figcaption {
