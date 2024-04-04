@@ -9,7 +9,7 @@
 }
 
 header {
-  background-color: #ff9900;
+  background-color: #558001;
   padding: 20px;
 }
 
@@ -38,7 +38,7 @@ section {
 }
 
 section h2 {
-  color: #336699;
+  color: #333;
 }
 
 section p {
@@ -83,7 +83,6 @@ footer {
   width: 30px;
   height: auto;
 }
-
 
 h1 {
   font-size: 1.8rem;
@@ -131,7 +130,6 @@ figcaption {
   margin-top: 0.5rem;
 }
 
-/* Contact Form */
 form {
   max-width: 600px;
   margin: 20px auto;
@@ -192,171 +190,3 @@ button[type="submit"]:hover {
 footer {
   background-color: gray
 }
-
-
-
-
-
-/* Define a color palette for mountain vibes */
-:root {
-  --primary-color: #99cc33; /* Earthy green */
-  --secondary-color: #b38033; /* Warm brown */
-  --accent-color: #007bff; /* Blue for accents */
-  --heading-font: 'Oswald', sans-serif; /* Adjust to preferred heading font */
-  --text-color: #333; /* Dark text for readability */
-}
-
-/* Headers */
-header {
-  background-color: var(--primary-color);
-  padding: 2rem; /* Use rem units for responsiveness */
-}
-
-header img {
-  max-width: 100%;
-  height: auto;
-}
-
-h1 {
-  font-size: 2rem; /* Adjust font size for hierarchy */
-  margin-bottom: 1.5rem;
-  text-align: center;
-  color: var(--text-color);
-}
-
-/* Navigation */
-nav {
-  display: flex;
-  justify-content: center;
-}
-
-nav a {
-  margin-right: 2rem;
-  color: var(--text-color);
-  text-decoration: none;
-  font-weight: bold; /* Add some weight for emphasis */
-}
-
-/* Main Content */
-main {
-  padding: 2rem;
-}
-
-section {
-  margin-bottom: 2rem;
-}
-
-section h2 {
-  color: var(--secondary-color);
-  font-size: 1.6rem;
-  margin-bottom: 1rem;
-}
-
-section p {
-  line-height: 1.5;
-  color: var(--text-color);
-}
-
-/* Image Grid */
-.adventures {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-}
-
-.adventures figure {
-  margin: 0;
-  max-width: 100%;
-  text-align: center;
-}
-
-.adventures figcaption {
-  margin-top: 1rem;
-  font-style: italic;
-  color: #666;
-}
-
-figure {
-  margin: 1rem;
-  text-align: center;
-}
-
-img {
-  width: 250px; /* Adjust image width for layout */
-  border-radius: 5px;
-}
-
-figcaption {
-  font-style: italic;
-  margin-top: 0.5rem;
-  color: var(--text-color);
-}
-
-.map {
-  margin: 1rem auto;
-  width: 100%;
-  max-width: 600px;
-}
-
-/* Content Blocks */
-.Happy-Rafters {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-/* Responsive Media Queries (optional) */
-@media (max-width: 768px) {
-  /* Adjust styles for smaller screens here */
-  nav a {
-    margin-right: 1rem;
-  }
-
-  .adventures, .Happy-Rafters {
-    flex-direction: column; /* Stack elements on small screens */
-  }
-}
-
-/* Contact Form */
-form {
-  max-width: 600px;
-  margin: 2rem auto;
-  padding: 2rem;
-  background-color: #f2f2f2;
-  border-radius: 10px;
-}
-
-form div {
-  margin-bottom: 1.5rem;
-}
-
-label {
-  display: block;
-  margin-bottom: 5px;
-  color: var(--text-color);
-}
-
-textarea, input[type="text"] {
-  padding: 0.5rem;
-  border: 1px solid #ccc;
-  margin-bottom: 1rem;
-  width: 100%;
-}
-
-.radio-container {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 1rem;
-}
-
-.radio-container label {
-  margin-bottom: 0.3rem;
-  color: var(--text-color);
-}
-
-input[type="radio"] {
-  margin-right: 0.5rem;
-}
-
-#subscribe {
-  margin-
