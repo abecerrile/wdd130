@@ -5,7 +5,7 @@
 }
 
 .background img {
-  background-image: url("https://computacenter-my.sharepoint.com/:i:/r/personal/alberto_becerril_computacenter_com/Documents/Desktop/wdd130/wwr/images/rafting-background.jpg?csf=1&web=1&e=dq0Z3f");
+  background-image: "images/";
   background-size: cover;
   background-position: center;
 }
@@ -253,7 +253,7 @@ section {
 
 .adventures img {
   width: 200px;
-  height: 200px;
+  height: auto;
   align-self: flex-start;
 }
 
