@@ -200,8 +200,8 @@ button[type="submit"]:hover {
   box-sizing: border-box;
 }
 
-.background {
-  background-image: url('images/rafting-background.jpg');
+.background img {
+  background-image: url("images/rafting-background.jpg");
   background-size: cover;
   background-position: center;
 }
