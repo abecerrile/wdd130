@@ -231,7 +231,7 @@ header {
   text-align: center;
   display: block;
   margin: 0 auto;
-  border-radius: 20px;
+  border-radius: 12px;
 }
 
 nav a {
@@ -252,7 +252,10 @@ main {
   margin: 20px auto;
   padding: 20px;
 }
-
+.company-info {
+  background-color: #f2f2f2;
+  border-radius: 10px;
+}
 /* Hero */
 .hero {
   text-align: center;
