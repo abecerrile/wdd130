@@ -53,7 +53,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background-color: #0056b3; 
+  background-color: #f2f3f5; 
 }
 
 .logo-container {
@@ -75,8 +75,8 @@ header nav a {
   padding: 10px 20px; 
   margin-left: 10px; 
   text-decoration: none;
-  color: #fff; 
-  background-color: #f2f3f5;
+  color: #333; 
+  background-color:#0056b3;
   border: 1px solid transparent;
   border-radius: 5px; 
   transition: background-color 0.3s, border-color 0.3s, color 0.3s; 
