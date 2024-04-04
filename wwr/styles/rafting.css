@@ -347,7 +347,7 @@ article p {
 figure {
   display: inline-block;
   margin: 1rem;
-  justify-content: flex-start;
+  text-align: center;
   border-radius: 10px;
   overflow: hidden; 
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
@@ -361,8 +361,7 @@ figure:hover {
 img {
   width: 200px; 
   height: 200px; 
-  border-radius: 10px;
-  align-self: flex-start;
+  border-radius: 10px; 
 }
 
 figcaption {
@@ -437,7 +436,7 @@ section {
 .adventures {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center;
   gap: 20px; 
 }
 
