@@ -100,7 +100,7 @@ main {
 .hero img {
   max-width: 1000px; 
   height: auto;
-  width: 600px; 
+  width: 800px; 
 }
 
 /* Article */
@@ -163,7 +163,7 @@ figure:hover {
 }
 
 img {
-  width: 200px; 
+  width: auto; 
   height: 200px; 
   border-radius: 10px; 
 }
