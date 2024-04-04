@@ -284,13 +284,13 @@ main {
 
 /* Hero */
 .hero {
-  text-align: center;
+  text-align: left;
   margin-bottom: 30px;
 }
 
 .hero img {
-  max-width: 200%;
-  width: 200%;
+  max-width: 300%;
+  width: 300%;
   height: auto;
   display: flex;
   justify-content: center; 
