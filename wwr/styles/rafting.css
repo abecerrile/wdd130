@@ -90,15 +90,13 @@ main {
 .hero {
   flex: 1;
   margin-bottom: 30px;
+  display: flex;
+  justify-content: center; /* Align the hero image horizontally */
 }
 
 .hero img {
-  max-width: 160%;
-  width: 160%;
-  height: auto;
-  display: flex;
-  margin-right:auto;
-  margin-left: 0;
+  max-width: 100%; /* Ensure the image does not exceed its container */
+  height: auto; /* Maintain aspect ratio */
 }
 
 /* Article */
