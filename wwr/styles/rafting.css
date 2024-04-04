@@ -5,7 +5,7 @@
 }
 
 .background img {
-  background-image: "images/rafting-background.jpg";
+  background-image: url("images/rafting-background.jpg");
   background-size: cover;
   background-position: center;
 }
