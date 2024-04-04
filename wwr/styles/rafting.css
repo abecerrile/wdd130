@@ -259,7 +259,8 @@ section {
 }
 
 .adventures img {
-  width: 300px;
+  max-width: 600px;
+  width: 400px;
   height: auto;
   align-self: flex-start;
 }
