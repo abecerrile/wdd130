@@ -80,7 +80,6 @@ footer {
   height: auto;
 }
 
-/* Removed the repeated body styles */
 
 h1 {
   font-size: 1.8rem;
@@ -130,16 +129,20 @@ figcaption {
 
 /* Contact Form */
 form {
-  display: flex;
-  flex-direction: column;
-  width: 50%;
-  margin: 0 auto;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+}
+
+form div {
+  margin-bottom: 20px;
 }
 
 label {
-  font-weight: bold;
-  margin-bottom: 0.5rem;
   display: block;
+  margin-bottom: 5px;
 }
 
 textarea, input[type="text"] {
@@ -168,20 +171,20 @@ input[type="radio"] {
 }
 
 button[type="submit"] {
-  background-color: #333;
-  color: #fff;
-  padding: 0.8rem 1.5rem;
+  background-color: #007bff;
+  color: #fff; 
   border: none;
+  padding: 10px 20px;
+  font-size: 16px;
   border-radius: 5px;
   cursor: pointer;
-  margin-top: 1rem;
 }
 
 button[type="submit"]:hover {
-  background-color: #222;
+  background-color: #0056b3;
 }
 
 /* Footer */
 footer {
-  background-color:
+  background-color: gray
 }
