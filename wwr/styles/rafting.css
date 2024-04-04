@@ -1,7 +1,11 @@
-/* :root {
-  --primary-color: #ff9900;
-  --secondary-color: #336699;
-  --heading-font: 'Oswald', sans-serif;
+:root {
+  :root {
+    --primary-color: #558001; /* Earthy green */
+    --secondary-color: #78551f; /* Warm brown */
+    --accent-color: #007bff; /* Blue for accents */
+    --heading-font: 'Oswald', sans-serif; /* Adjust to preferred heading font */
+    --text-color: #333; /* Dark text for readability */
+  }
 }
 
 header {
@@ -128,7 +132,7 @@ figcaption {
 }
 
 /* Contact Form */
-/* form {
+form {
   max-width: 600px;
   margin: 20px auto;
   padding: 20px;
@@ -184,10 +188,13 @@ button[type="submit"]:hover {
   background-color: #0056b3;
 }
 
-/*
+/* Footer */
 footer {
   background-color: gray
-} */
+}
+
+
+
 
 
 /* Define a color palette for mountain vibes */
@@ -310,6 +317,7 @@ figcaption {
   }
 }
 
+/* Contact Form */
 form {
   max-width: 600px;
   margin: 2rem auto;
@@ -351,5 +359,4 @@ input[type="radio"] {
 }
 
 #subscribe {
-  margin-bottom: 1rem;
-}
+  margin-
