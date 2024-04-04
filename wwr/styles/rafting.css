@@ -245,12 +245,12 @@ section {
 }
 
 .adventures figure {
-  flex: 0 0 calc(33.33% - 40px); 
-  max-width: 1000px;;
-  margin: 0; 
+  display: inline-block;
+  margin: 1rem;
+  text-align: center;
   border-radius: 10px;
   overflow: hidden; 
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
   transition: transform 0.3s ease;
 }
 
@@ -259,9 +259,9 @@ section {
 }
 
 .adventures img {
-  max-width: 500px;
-  width: 500px;
-  height: 200px;
+  width: auto; 
+  height: 300px; 
+  border-radius: 10px; 
 }
 
 .adventures figcaption {
