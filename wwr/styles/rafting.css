@@ -224,12 +224,12 @@ p {
   margin-bottom: 15px;
 }
 
-/* Header */
+/* Header 
 header {
   background-color: ;
   padding: 20px;
   text-align: center;
-}
+}*/
 
 header {
   display: flex;
