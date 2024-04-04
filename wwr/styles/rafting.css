@@ -260,8 +260,8 @@ section {
 
 .adventures img {
   max-width: 1000px;
-  width: 700px;
-  height: auto;
+  width: 400px;
+  height: 300px;
   align-self: flex-start;
 }
 
