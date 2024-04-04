@@ -347,7 +347,7 @@ article p {
 figure {
   display: inline-block;
   margin: 1rem;
-  text-align: center;
+  justify-content: flex-start;
   border-radius: 10px;
   overflow: hidden; 
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
@@ -360,8 +360,9 @@ figure:hover {
 
 img {
   width: 200px; 
-  height: 200px; 
-  border-radius: 10px; 
+  height: 250px; 
+  border-radius: 10px;
+  align-self: flex-start;
 }
 
 figcaption {
