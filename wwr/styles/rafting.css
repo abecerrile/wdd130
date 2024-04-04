@@ -246,7 +246,7 @@ section {
 
 .adventures figure {
   flex: 0 0 calc(33.33% - 40px); 
-  max-width: calc(33.33% - 40px);
+  max-width: 1000px;;
   margin: 0; 
   border-radius: 10px;
   overflow: hidden; 
