@@ -45,10 +45,11 @@ section {
 
 section h2 {
   color: var(--text-color);
+  text-align: center;
 }
 
 section p {
-  text-align: justify;
+  text-align: center;
 }
 
 .adventures {
@@ -70,7 +71,7 @@ section p {
 }
 
 footer {
-  background-color: gray; /* Changed footer background color */
+  background-color: gray;
   color: #fff;
   padding: 20px;
   text-align: right;
