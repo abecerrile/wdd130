@@ -1,15 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
 :root {
-  :root {
-    --primary-color: #558001;
-    --secondary-color: #78551f;
-    --accent-color: #007bff;
-    --heading-font: 'Oswald', sans-serif;
-    --text-color: #333;
-  }
+  --primary-color: #558001;
+  --secondary-color: #78551f;
+  --accent-color: #007bff;
+  --heading-font: 'Oswald', sans-serif;
+  --text-color: #333;
 }
 
 header {
-  background-color: #558001;
+  background-color: var(--primary-color);
   padding: 20px;
 }
 
@@ -38,7 +38,7 @@ section {
 }
 
 section h2 {
-  color: #333;
+  color: var(--text-color);
 }
 
 section p {
@@ -64,7 +64,7 @@ section p {
 }
 
 footer {
-  background-color: #333;
+  background-color: gray; /* Changed footer background color */
   color: #fff;
   padding: 20px;
   text-align: right;
@@ -173,7 +173,7 @@ input[type="radio"] {
 }
 
 button[type="submit"] {
-  background-color: #007bff;
+  background-color: var(--accent-color); /* Changed button background color */
   color: #fff; 
   border: none;
   padding: 10px 20px;
@@ -184,8 +184,4 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
   background-color: #0056b3;
-}
-
-footer {
-  background-color: gray
 }
