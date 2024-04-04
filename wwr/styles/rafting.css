@@ -244,8 +244,8 @@ header {
 }
 
 .logo-container img {
-  width: 10px; /* Let the width of the logo adjust automatically */
-  height: 10px; /* Adjust height of the logo as needed */
+  width: 100px; /* Let the width of the logo adjust automatically */
+  height: 100px; /* Adjust height of the logo as needed */
 }
 
 header nav {
