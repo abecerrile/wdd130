@@ -296,11 +296,12 @@ main {
 }
 
 .hero img {
-  max-width: 150%;
-  width: 150%;
+  max-width: 250%;
+  width: 250%;
   height: auto;
-  display: flex;
-  justify-content: left; 
+  display: block;
+  margin-right:auto;
+  margin-left: 0;
 }
 
 /* Article */
