@@ -12,6 +12,14 @@
   background-repeat: no-repeat; /* Do not repeat the background image */ /* Ensure the background covers the entire container */
 }
 
+.background-container {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 /* Typography */
 body {
   font-family: 'Oswald', sans-serif;
