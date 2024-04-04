@@ -18,6 +18,12 @@ header img {
   height: auto;
 }
 
+header img.logo {
+  max-width: 200px;
+  display: block;
+  margin: 0 auto;
+}
+
 nav {
   display: flex;
   justify-content: center; 
