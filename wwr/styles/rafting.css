@@ -436,7 +436,7 @@ section {
 .adventures {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 20px; 
 }
 
@@ -457,6 +457,7 @@ section {
 .adventures img {
   width: 200px;
   height: 200px;
+  align-self: flex-start;
 }
 
 .adventures figcaption {
