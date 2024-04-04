@@ -244,8 +244,8 @@ header {
 }
 
 .logo-container img {
-  width: 25px; /* Let the width of the logo adjust automatically */
-  height: 25px; /* Adjust height of the logo as needed */
+  width: 10px; /* Let the width of the logo adjust automatically */
+  height: 10px; /* Adjust height of the logo as needed */
 }
 
 nav {
@@ -254,7 +254,7 @@ nav {
   justify-content: flex-end;
 }
 
-nav a {
+header nav a {
   padding: 10px 20px; /* Adjust padding to give button-like appearance */
   margin-left: 10px; /* Add some spacing between buttons */
   text-decoration: none;
@@ -265,7 +265,7 @@ nav a {
   transition: background-color 0.3s, border-color 0.3s, color 0.3s; /* Add transition effect */
 }
 
-nav a:hover {
+header nav a:hover {
   background-color: #7fc2f9; /* Adjust background color on hover */
   border-color: #7fc2f9; /* Adjust border color on hover */
   color: #fff; /* Adjust text color on hover */
@@ -464,7 +464,9 @@ footer {
   height: 30px;
   transition: transform 0.3s ease;
 }
-
+.sociallinks nav a {
+  margin-left: 10px;
+}
 .sociallinks img:hover {
   transform: scale(1.2);
 }
