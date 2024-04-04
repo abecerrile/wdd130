@@ -115,6 +115,11 @@ article p {
   text-align: center;
 }
 
+article img {
+  width: 200px;
+  height: auto;
+}
+
 .map {
   margin: 1rem auto;
   max-width: 600px;
