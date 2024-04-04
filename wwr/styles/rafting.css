@@ -128,7 +128,7 @@ figcaption {
 }
 
 /* Contact Form */
-form {
+/* form {
   max-width: 600px;
   margin: 20px auto;
   padding: 20px;
@@ -184,7 +184,7 @@ button[type="submit"]:hover {
   background-color: #0056b3;
 }
 
-/* Footer */
+/*
 footer {
   background-color: gray
 } */
@@ -355,4 +355,5 @@ input[type="radio"] {
 }
 
 #subscribe {
-  margin-
+  margin-bottom: 1rem;
+}
