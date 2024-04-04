@@ -280,6 +280,33 @@ article p {
   text-align: center;
 }
 
+.map {
+  margin: 1rem auto;
+  width: 100%;
+  max-width: 600px;
+}
+
+.Happy-Rafters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+figure {
+  margin: 1rem;
+  text-align: center;
+}
+
+img {
+  width: 200px;
+  border-radius: 5px;
+}
+
+figcaption {
+  font-style: italic;
+  margin-top: 0.5rem;
+}
+
 form {
   max-width: 600px;
   margin: 20px auto;
