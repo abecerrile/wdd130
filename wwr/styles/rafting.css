@@ -229,6 +229,8 @@ header {
   background-color: #495fdf;
   padding: 20px;
   text-align: center;
+  display: block;
+  margin: 0 auto;
 }
 
 nav a {
