@@ -235,6 +235,9 @@ header {
   display: block;
   margin: 0 auto;
   border-radius: 10px;
+  width: 150px;
+  height: auto;
+  border-radius: 10px;
 }
 
 nav a {
