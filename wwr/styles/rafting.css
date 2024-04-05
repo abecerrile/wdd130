@@ -72,9 +72,26 @@ main {
   text-align: center;
 }
 
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+article p {
+  max-width: 90%; 
+  margin: 0 auto; 
+  text-align: center;
+}
+
+article img {
+  width: 300px;
+  height: auto;
+}
+
 .background {
   background-color: cadetblue;
-  background-image: url('../images/rafting-background.jpg');
+  background-image: url('../images/rafting-background.jpg'); /* Path to your background image */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -160,23 +177,6 @@ p {
 
 .company-info {
   text-align: center;
-}
-
-article {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-article p {
-  max-width: 90%; 
-  margin: 0 auto; 
-  text-align: center;
-}
-
-article img {
-  width: 300px;
-  height: auto;
 }
 
 div section {
