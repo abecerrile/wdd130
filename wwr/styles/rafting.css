@@ -208,7 +208,21 @@ div section {
 }
 
 .Happy-Rafters {
-  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow-x: auto; 
+}
+
+.Happy-Rafters figure {
+  width: 550px;
+  margin-right: 20px;
+}
+.Happy-Rafters img {
+  max-width: 530px;
+  height: auto;
 }
 
 figure {
@@ -317,6 +331,7 @@ section {
   margin-top: 10px;
   font-style: italic;
 }
+
 .adventures {
   display: flex;
   overflow-x: auto;
