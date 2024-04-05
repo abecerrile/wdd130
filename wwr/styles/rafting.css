@@ -45,7 +45,7 @@
   color: #fff;
 }
 
-nav h2 a {
+nav h3 a {
   padding: 10px 20px; 
   margin-left: 10px; 
   text-decoration: none;
@@ -56,7 +56,7 @@ nav h2 a {
   transition: background-color 0.3s, border-color 0.3s, color 0.3s; 
 }
 
-nav h2 a:hover {
+nav h3 a:hover {
   background-color: #fff;
   border-color: #fff; 
   color: #333;
