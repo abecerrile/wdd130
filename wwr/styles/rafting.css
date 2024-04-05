@@ -212,7 +212,7 @@ div section {
 }
 
 figure {
-  display: inline-block;
+  display: block;
   margin: 1rem;
   text-align: center;
 }
@@ -225,8 +225,7 @@ img {
   width: auto; 
   height: 200px; 
   border-radius: 10px;
-  display: flex;
-  align-items: center;
+  display: inline-block;
 }
 
 figcaption {
