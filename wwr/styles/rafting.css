@@ -106,7 +106,7 @@ main {
 /* Hero */
 .hero {
   background-color: cadetblue;
-  background-image: url('../images/heroimg.jpg'); /* Path to your background image */
+  background-image: url('../images/mountain-background.jpg'); /* Path to your background image */
   background-size: cover; /* Cover the entire container with the background image */
   background-position: center; /* Center the background image */
   background-repeat: no-repeat; /* Do not repeat the background image */ /* Ensure the background covers the entire container */
