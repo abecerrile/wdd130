@@ -111,7 +111,7 @@ main {
   background-position: center; /* Center the background image */
   background-repeat: no-repeat; /* Do not repeat the background image */ /* Ensure the background covers the entire container */
 
-  padding-top: 400px;
+  padding-top: 300px;
   padding-bottom: 300px;
 }
 
