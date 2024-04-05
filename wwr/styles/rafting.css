@@ -370,6 +370,101 @@ section {
   margin-bottom: 50px;
 }
 
+/*INDEX*/
+#background-index {
+  background-image: url('../images/background-index.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 100px 0;
+  text-align: center;
+}
+
+#background-index h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#background-index p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+/* Newsletter Sign-Up Form styles */
+#newsletter {
+  background-color: #fff;
+  padding: 50px 0;
+  text-align: center;
+}
+
+#newsletter h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#newsletter form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#newsletter input[type="text"],
+#newsletter input[type="email"],
+#newsletter button {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+#newsletter button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Call to Action Section styles */
+#cta {
+  background-color: #007bff;
+  color: #fff;
+  padding: 100px 0;
+  text-align: center;
+}
+
+#cta h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#cta .btn {
+  background-color: #fff;
+  color: #007bff;
+  padding: 10px 20px;
+  border: 2px solid #fff;
+  text-decoration: none;
+}
+
+/* Grid Layout styles */
+#grid-layout {
+  padding: 50px 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.grid-item {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.grid-item img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
 /* Footer */
 footer {
   background-color: #333;
