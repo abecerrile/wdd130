@@ -128,17 +128,21 @@ main {
 article {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
 }
 
 article p {
   max-width: 800px;
-  text-align: center;
+  text-align: left;
 }
 
 article img {
   width: 300px;
   height: auto;
+}
+
+.company-info {
+  text-align: left;
 }
 
 .map {
