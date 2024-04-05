@@ -65,6 +65,13 @@ header nav a:hover {
   color: #fff;
   }
 
+main {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+}
+
 .background {
   background-color: cadetblue;
   background-image: url('../images/rafting-background.jpg'); /* Path to your background image */
@@ -124,7 +131,7 @@ nav h3 a:hover {
   border-radius: 10px;
 }
 
-/* Typography */
+
 body {
   font-family: 'DM-Sans', sans-serif;
   font-size: 16px;
@@ -149,14 +156,6 @@ h2 {
 
 p {
   margin-bottom: 15px;
-}
-
-/* Main */
-main {
-  max-width: 600px;
-  margin: 20px auto;
-  padding: 20px;
-  text-align: center;
 }
 
 .company-info {
