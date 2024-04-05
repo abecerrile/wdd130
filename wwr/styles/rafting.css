@@ -25,6 +25,44 @@
 
 }
 
+.trips-background {
+  background-color: cadetblue;
+  background-image: url('../images/trips-background.jpg'); /* Path to your background image */
+  background-size: cover; /* Cover the entire container with the background image */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Do not repeat the background image */ /* Ensure the background covers the entire container */
+
+  padding-top: 300px;
+  padding-bottom: 300px;
+}
+
+.trips-container {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: #fff;
+}
+
+nav h2 a {
+  padding: 10px 20px; 
+  margin-left: 10px; 
+  text-decoration: none;
+  color: #333; 
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-radius: 5px; 
+  transition: background-color 0.3s, border-color 0.3s, color 0.3s; 
+}
+
+nav h2 a:hover {
+  background-color: #7fc2f9;
+  border-color: #7fc2f9; 
+  color: #fff;
+  border-radius: 10px;
+}
+
 /* Typography */
 body {
   font-family: 'Oswald', sans-serif;
