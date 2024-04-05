@@ -105,18 +105,23 @@ main {
 
 /* Hero */
 .hero {
-  flex: 1;
-  margin-bottom: 30px;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  max-height: 600px;
+  background-color: cadetblue;
+  background-image: url('../images/heroimg.jpg'); /* Path to your background image */
+  background-size: cover; /* Cover the entire container with the background image */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Do not repeat the background image */ /* Ensure the background covers the entire container */
+
+  padding-top: 300px;
+  padding-bottom: 300px;
 }
 
-.hero img {
-  max-width: 1000px; 
-  height: auto;
-  width: 800px; 
+.hero-container{
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: #fff;
 }
 
 /* Article */
