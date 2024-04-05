@@ -74,10 +74,10 @@ main {
 
 .background {
   background-color: cadetblue;
-  background-image: url('../images/rafting-background.jpg'); /* Path to your background image */
-  background-size: cover; /* Cover the entire container with the background image */
-  background-position: center; /* Center the background image */
-  background-repeat: no-repeat; /* Do not repeat the background image */ /* Ensure the background covers the entire container */
+  background-image: url('../images/rafting-background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 
   padding-top: 300px;
   padding-bottom: 300px;
