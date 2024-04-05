@@ -45,6 +45,8 @@ header nav a:hover {
   color: #fff;
 }
 
+/*ABOUT US*/
+
 .hero {
   background-color: cadetblue;
   background-image: url('../images/mountain-background.jpg'); /* Path to your background image */
@@ -88,6 +90,30 @@ article img {
   width: 300px;
   height: auto;
 }
+
+figure {
+  display: block;
+  margin: 1rem;
+  text-align: center;
+}
+
+figure:hover {
+  transform: translateY(-5px); 
+}
+
+img {
+  width: auto; 
+  height: 200px; 
+  border-radius: 10px;
+  display: inline-block;
+}
+
+figcaption {
+  font-style: italic;
+  margin-top: 0.5rem;
+}
+
+/*CONTACT*/
 
 .background {
   background-color: cadetblue;
@@ -223,28 +249,6 @@ div section {
 .Happy-Rafters img {
   max-width: 300px;
   height: auto;
-}
-
-figure {
-  display: block;
-  margin: 1rem;
-  text-align: center;
-}
-
-figure:hover {
-  transform: translateY(-5px); 
-}
-
-img {
-  width: auto; 
-  height: 200px; 
-  border-radius: 10px;
-  display: inline-block;
-}
-
-figcaption {
-  font-style: italic;
-  margin-top: 0.5rem;
 }
 
 form {
