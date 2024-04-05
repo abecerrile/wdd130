@@ -263,6 +263,7 @@ section {
   overflow-x: auto;
   padding: 20px;
   gap: 20px; 
+  text-align: center;
 }
 
 .adventures figure {
@@ -282,7 +283,7 @@ section {
 .adventures img {
   width: auto; 
   height: 300px; 
-  border-radius: 10px; 
+  border-radius: 10px;
 }
 
 .adventures figcaption {
