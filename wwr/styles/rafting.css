@@ -211,6 +211,10 @@ div section {
   text-align: center;
 }
 
+figure img {
+  display: inline-block;
+}
+
 figure {
   display: inline-block;
   margin: 1rem;
