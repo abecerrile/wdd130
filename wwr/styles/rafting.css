@@ -136,6 +136,108 @@ figcaption {
 
 }
 
+.company-info {
+  text-align: center;
+}
+
+.map {
+  margin: 1rem auto;
+  max-width: 600px;
+  width: 100%;
+  display: block;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.map-container {
+  padding: 0;
+  margin: 0;
+  border-radius: 12px;
+}
+
+.map iframe {
+  border-radius: 12px;
+}
+
+.map:hover {
+  transform: translateY(-5px); 
+  transition: transform 0.3s ease; 
+}
+
+.Happy-Rafters {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow-x: auto; 
+}
+
+.Happy-Rafters figure {
+  width: 300px;
+  margin-right: 20px;
+}
+.Happy-Rafters img {
+  max-width: 300px;
+  height: auto;
+}
+
+form {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+}
+
+form div {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+textarea, input[type="text"] {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.radio-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.radio-container label {
+  margin-bottom: 0.3rem;
+}
+
+input[type="radio"] {
+  margin-right: 0.5rem;
+}
+
+#subscribe {
+  margin-bottom: 1rem;
+}
+
+button[type="submit"] {
+  background-color: var(--accent-color);
+  color: #0056b3; 
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #7fc2f9;
+}
+
 .trips-background {
   background-color: cadetblue;
   background-image: url('../images/trips-background.jpg'); /* Path to your background image */
@@ -199,10 +301,6 @@ h2 {
 
 p {
   margin-bottom: 15px;
-}
-
-.company-info {
-  text-align: center;
 }
 
 div section {
