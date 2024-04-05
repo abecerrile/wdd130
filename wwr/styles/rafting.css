@@ -294,6 +294,29 @@ section {
   margin-bottom: 50px;
 }
 
+.locations {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow-x: auto; 
+}
+
+.locations figure {
+  width: 550px; /* Adjust as needed */
+  margin-right: 20px; /* Adjust as needed */
+}
+
+.locations img {
+  max-width: 530px;
+  height: auto;
+}
+
+.locations figcaption {
+  margin-top: 10px;
+  font-style: italic;
+}
 .adventures {
   display: flex;
   overflow-x: auto;
@@ -303,8 +326,8 @@ section {
 }
 
 .adventures figure {
-  flex: 0 0 auto; /* Allow items to grow or shrink as needed */
-  margin: 0; /* Remove the margin */
+  flex: 0 0 auto; 
+  margin: 0;
   text-align: center;
   border-radius: 10px;
   overflow: hidden;
