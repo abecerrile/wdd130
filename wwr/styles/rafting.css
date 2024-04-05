@@ -274,41 +274,52 @@ button[type="submit"]:hover {
 /*TRIPS*/
 
 .trips-background {
-  background-color: cadetblue;
-  background-image: url('../images/trips-background.jpg'); /* Path to your background image */
-  background-size: cover; /* Cover the entire container with the background image */
-  background-position: center; /* Center the background image */
-  background-repeat: no-repeat; /* Do not repeat the background image */ /* Ensure the background covers the entire container */
-
-  padding-top: 300px;
-  padding-bottom: 300px;
-}
-
-.trips-container {
-  max-width: 960px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  background-image: url('images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
   color: #fff;
+  padding: 100px 0;
 }
 
-nav h3 a {
-  padding: 10px 20px; 
-  margin-left: 10px; 
+.trips-container h1 {
+  font-size: 36px;
+}
+
+/* Main section styles */
+main {
+  padding: 50px 0;
+}
+
+/* Ready to Embark section styles */
+.ready-to-embark h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.ready-to-embark p {
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+/* Book Now section styles */
+.book-now {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.book-now h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.book-now a {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
   text-decoration: none;
-  color: #fff; 
-  background-color: #7fc2f9;
-  border: 1px solid transparent;
-  border-radius: 5px; 
-  transition: background-color 0.3s, border-color 0.3s, color 0.3s; 
-}
-
-nav h3 a:hover {
-  background-color: #fff;
-  border-color: #fff; 
-  color: #333;
-  border-radius: 10px;
+  border
 }
 
 .locations {
