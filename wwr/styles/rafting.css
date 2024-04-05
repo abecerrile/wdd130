@@ -274,7 +274,7 @@ button[type="submit"]:hover {
 /*TRIPS*/
 
 .trips-background {
-  background-image: url('images/background.jpg');
+  background-image: url('../images/trips-background.jpg');
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -319,25 +319,28 @@ main {
   background-color: #007bff;
   color: #fff;
   text-decoration: none;
-  border
+  border:5px;
 }
 
+/* Locations section styles */
 .locations {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  max-width: 1200px;
+  flex-direction: row; /* Display items horizontally */
+  justify-content: space-between; /* Distribute items evenly along the main axis */
+  align-items: center; /* Align items to the center vertically */
+  padding: 20px 0;
   margin: 0 auto;
-  overflow-x: auto; 
+  max-width: 1200px;
+  overflow-x: auto; /* Enable horizontal scrolling */
 }
 
 .locations figure {
-  width: 550px;
-  margin-right: 20px;
+  flex: 0 0 auto; /* Prevent items from growing */
+  margin-right: 20px; /* Add space between items */
 }
 
 .locations img {
-  max-width: 530px;
+  max-width: 100%;
   height: auto;
 }
 
