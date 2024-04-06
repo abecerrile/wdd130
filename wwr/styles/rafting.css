@@ -330,8 +330,9 @@ main {
 /* Locations section styles */
 .locations {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row; /* Display items horizontally */
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
   padding: 20px 0;
   margin: 0 auto;
   max-width: 1200px;
@@ -348,6 +349,7 @@ main {
   font-size: 24px;
   margin-bottom: 20px;
   text-align: center; /* Center the heading text */
+  font-family: 'DM Sans', sans-serif; /* Change to a better font */
 }
 
 .locations .location {
