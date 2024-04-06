@@ -344,14 +344,18 @@ main {
 }
 
 .locations img {
-  max-width: 200px; /* Adjust the max-width to fit your layout */
+  max-width: 300px; /* Adjust the max-width to fit your layout */
   height: auto;
+  border-radius: 10px; /* Add border radius for a nicer appearance */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
 }
 
 .locations figcaption {
   margin-top: 10px;
   font-style: italic;
+  text-align: center; /* Center align the caption text */
 }
+
 
 body {
   font-family: 'DM-Sans', sans-serif;
