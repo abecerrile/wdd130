@@ -365,15 +365,15 @@ main {
 }
 
 .locations img {
-  width: 600px;
-  max-width: 600px; /* Adjust the maximum width of images */
+  width: 500px;
+  max-width: 500px; /* Adjust the maximum width of images */
   height: auto;
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .locations .location:nth-child(3) {
-  align-self:center; /* Align the third item to the bottom */
+  align-self: right; /* Align the third item to the bottom */
 }
 
 body {
