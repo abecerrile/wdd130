@@ -326,16 +326,16 @@ main {
 .book-now a:hover {
   background-color: #0056b3; /* Change background color on hover */
 }
+
 /* Locations section styles */
 .locations {
   display: flex;
-  flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
-  justify-content: space-between; /* Distribute items evenly along the main axis */
-  align-items: flex-start; /* Align items to the top vertically */
+  flex-direction: column;
+  justify-content: center; /* Center items vertically */
+  align-items: center; /* Center items horizontally */
   padding: 20px 0;
   margin: 0 auto;
   max-width: 1200px;
-  overflow-x: auto; /* Enable horizontal scrolling if needed */
 }
 
 .locations .container {
@@ -351,14 +351,13 @@ main {
 }
 
 .locations .location-grid {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two items per row */
+  grid-gap: 20px; /* Spacing between items */
 }
 
 .locations .location {
-  flex: 0 0 calc(33.33% - 20px); /* Adjust width to fit three items per row with spacing */
-  margin-bottom: 20px;
+  flex: 1 1 auto; /* Allow item to grow */
 }
 
 .locations figure {
@@ -366,16 +365,15 @@ main {
 }
 
 .locations img {
-  width: 100%;
+  width: 600px;
+  max-width: 600px; /* Adjust the maximum width of images */
   height: auto;
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.locations figcaption {
-  margin-top: 10px;
-  font-style: italic;
-  text-align: center;
+.locations .location:nth-child(3) {
+  align-self:center; /* Align the third item to the bottom */
 }
 
 body {
