@@ -339,9 +339,11 @@ main {
 }
 
 .locations .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); /* Automatically fit items in columns with a minimum width of 400px */
+  grid-gap: 20px; /* Spacing between items */
+  justify-items: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
   width: 100%;
 }
 
@@ -365,15 +367,15 @@ main {
 }
 
 .locations img {
-  width: 500px;
-  max-width: 500px; /* Adjust the maximum width of images */
+  width: 700px;
+  max-width: 1000px; /* Adjust the maximum width of images */
   height: auto;
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .locations .location:nth-child(3) {
-  align-self: right; /* Align the third item to the bottom */
+  align-self: flex-end; /* Align the third item to the bottom */
 }
 
 body {
