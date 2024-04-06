@@ -339,11 +339,9 @@ main {
 }
 
 .locations .container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); /* Automatically fit items in columns with a minimum width of 400px */
-  grid-gap: 20px; /* Spacing between items */
-  justify-items: center; /* Center items horizontally */
-  align-items: center; /* Center items vertically */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
 }
 
@@ -367,15 +365,25 @@ main {
 }
 
 .locations img {
-  width: 700px;
-  max-width: 1000px; /* Adjust the maximum width of images */
-  height: auto;
-  border-radius: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  max-width:1000px;
+}
+/* Learn More button styles */
+.learn-more-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s; /* Add smooth transition */
 }
 
-.locations .location:nth-child(3) {
-  align-self: flex-end; /* Align the third item to the bottom */
+.learn-more-btn:hover {
+  background-color: #0056b3; /* Darker shade of blue on hover */
+}
+
+.learn-more-btn:active {
+  transform: translateY(1px); /* Add slight downward movement when clicked */
 }
 
 body {
