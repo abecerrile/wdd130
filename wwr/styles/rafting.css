@@ -331,33 +331,32 @@ main {
 .locations {
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Center items vertically */
-  align-items: center; /* Center items horizontally */
+  align-items: center;
   padding: 20px 0;
   margin: 0 auto;
   max-width: 1200px;
 }
 
 .locations .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust grid columns */
+  grid-gap: 20px; /* Spacing between items */
+  justify-content: center; /* Center items horizontally */
 }
 
 .locations h2 {
   font-size: 24px;
   margin-bottom: 20px;
-}
-
-.locations .location-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Two items per row */
-  grid-gap: 20px; /* Spacing between items */
+  text-align: center; /* Center the heading text */
 }
 
 .locations .location {
-  flex: 1 1 auto; /* Allow item to grow */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .locations figure {
@@ -365,9 +364,17 @@ main {
 }
 
 .locations img {
-  width: 400px;
-  max-width:1000px;
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0 0; /* Rounded corners for top */
 }
+
+.locations .location-details {
+  padding: 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
 /* Learn More button styles */
 .learn-more-btn {
   padding: 10px 20px;
