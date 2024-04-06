@@ -344,7 +344,7 @@ main {
 }
 
 .locations img {
-  max-width: 100%;
+  max-width: 200px; /* Adjust the max-width to fit your layout */
   height: auto;
 }
 
