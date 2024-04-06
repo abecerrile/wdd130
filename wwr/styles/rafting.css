@@ -329,33 +329,54 @@ main {
 /* Locations section styles */
 .locations {
   display: flex;
-  flex-direction: row; /* Display items horizontally */
-  justify-content: flex-start; /* Align items to the left */
-  align-items: center; /* Align items to the center vertically */
+  flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+  justify-content: space-between; /* Distribute items evenly along the main axis */
+  align-items: flex-start; /* Align items to the top vertically */
   padding: 20px 0;
   margin: 0 auto;
   max-width: 1200px;
-  overflow-x: auto; /* Enable horizontal scrolling */
+  overflow-x: auto; /* Enable horizontal scrolling if needed */
+}
+
+.locations .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.locations h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.locations .location-grid {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.locations .location {
+  flex: 0 0 calc(33.33% - 20px); /* Adjust width to fit three items per row with spacing */
+  margin-bottom: 20px;
 }
 
 .locations figure {
-  flex: 0 0 auto; /* Prevent items from growing */
-  margin-right: 20px; /* Add space between items */
+  margin: 0;
 }
 
 .locations img {
-  max-width: 400px; /* Adjust the max-width to fit your layout */
+  width: 100%;
   height: auto;
-  border-radius: 10px; /* Add border radius for a nicer appearance */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .locations figcaption {
   margin-top: 10px;
   font-style: italic;
-  text-align: center; /* Center align the caption text */
+  text-align: center;
 }
-
 
 body {
   font-family: 'DM-Sans', sans-serif;
