@@ -57,13 +57,17 @@ header nav a:hover {
   padding: 100px 0;
 }
 
+#container-about-us h1 {
+  font-size: 36px;
+}
+
 /* Main content styles */
-main {
+/* main {
   max-width: 600px;
   margin: 20px auto;
   padding: 20px;
   text-align: center;
-}
+} */
 
 article {
   display: flex;
