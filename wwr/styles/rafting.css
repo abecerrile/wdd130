@@ -72,11 +72,18 @@ main {
 
 .about-first-image-container {
   text-align: center;
-  margin-bottom: 20px;
   border-radius: 10px;
+  overflow: hidden; /* Ensures the border-radius is applied to the image */
   max-width: 500px;
-  width: 300px;
+  margin: 0 auto 20px; /* Center the container and add bottom margin */
+}
+
+.about-first-image-container img {
+  width: 100%; /* Make the image responsive within the container */
   height: auto;
+  display: block; /* Remove extra spacing beneath the image */
+  border-radius: 10px; /* Apply border-radius to the image itself */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
 }
 
 .about-container {
@@ -112,7 +119,6 @@ section p {
   line-height: 1.6;
   margin-bottom: 20px;
 }
-
 /* Adventures section styles */
 .adventures {
   background-color: #fff;
