@@ -86,11 +86,13 @@ main {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
 }
 
+/* About container styles */
 .about-container {
   background-color: #fff;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Center align content */
 }
 
 .about-container article {
@@ -105,7 +107,8 @@ main {
 .about-container p {
   font-size: 16px;
   line-height: 1.6;
-  margin-bottom: 20px;
+  margin: 0 auto 20px; /* Center align and set bottom margin */
+  max-width: 800px; /* Limit paragraph width for better readability */
 }
 
 /* History section styles */
@@ -117,7 +120,8 @@ section h3 {
 section p {
   font-size: 16px;
   line-height: 1.6;
-  margin-bottom: 20px;
+  margin: 0 auto 20px; /* Center align and set bottom margin */
+  max-width: 800px; /* Limit paragraph width for better readability */
 }
 /* Adventures section styles */
 .adventures {
