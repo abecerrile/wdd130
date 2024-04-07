@@ -102,6 +102,9 @@ main {
 .about-container h3 {
   font-size: 24px;
   margin-bottom: 10px;
+  border-radius: 5px;
+  color: #333;
+  width: 100%;
 }
 
 .about-container p {
@@ -109,6 +112,14 @@ main {
   line-height: 1.6;
   margin: 0 auto 20px;
   max-width: 800px; 
+}
+
+.about-container-history {
+background-color: #2B2D42;
+background-size: cover;
+color: #fff;
+padding-top: 20px;
+padding-bottom: 20px;
 }
 
 section h3 {
