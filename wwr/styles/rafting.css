@@ -75,7 +75,8 @@ main {
   border-radius: 10px;
   overflow: hidden; /* Ensures the border-radius is applied to the image */
   max-width: 500px;
-  margin: 0 auto 20px; /* Center the container and add bottom margin */
+  margin: 0 auto 20px;
+  color: #153243;
 }
 
 .about-first-image-container img {
@@ -103,7 +104,7 @@ main {
   font-size: 24px;
   margin-bottom: 10px;
   border-radius: 5px;
-  color: #333;
+  color: #35566C;
   width: 100%;
 }
 
@@ -115,7 +116,7 @@ main {
 }
 
 .about-container-history {
-background-color: #2B2D42;
+background-color: #35566C;
 background-size: cover;
 color: #fff;
 padding-top: 20px;
