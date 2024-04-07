@@ -65,7 +65,6 @@ header nav a:hover {
   font-size: 18px;
 }
 
-/* Main content styles */
 main {
   padding: 20px;
 }
@@ -73,7 +72,7 @@ main {
 .about-first-image-container {
   text-align: center;
   border-radius: 10px;
-  overflow: hidden; /* Ensures the border-radius is applied to the image */
+  overflow: hidden;
   max-width: 500px;
   margin: 0 auto 5px;
   padding-bottom: 5px;
@@ -98,7 +97,6 @@ main {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* About container styles */
 .about-container {
   background-color: #fff;
   padding: 20px;
@@ -320,12 +318,10 @@ button[type="submit"]:hover {
   font-size: 36px;
 }
 
-/* Main section styles */
 main {
   padding: 50px 0;
 }
 
-/* Ready to Embark section styles */
 .ready-to-embark h3 {
   font-size: 24px;
   margin-bottom: 20px;
@@ -337,7 +333,6 @@ main {
   margin-bottom: 20px;
 }
 
-/* Book Now section styles */
 .book-now {
   text-align: center;
   margin-bottom: 40px;
@@ -361,72 +356,56 @@ main {
   background-color: #0056b3; /* Change background color on hover */
 }
 
-/* Locations section styles */
-.locations {
-  display: flex;
-  flex-direction: row; /* Display items horizontally */
-  justify-content: center; /* Center items horizontally */
-  align-items: center; /* Center items vertically */
-  padding: 20px 0;
-  margin: 0 auto;
-  max-width: 1200px;
-}
-
-.locations .container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust grid columns */
-  grid-gap: 20px; /* Spacing between items */
-  justify-content: center; /* Center items horizontally */
-}
-
 .locations h2 {
-  font-size: 24px;
-  margin-bottom: 20px;
-  text-align: center; /* Center the heading text */
-  font-family: 'DM Sans', sans-serif; /* Change to a better font */
-}
-
-.locations .location {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.locations figure {
-  margin: 0;
-}
-
-.locations img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px 10px 0 0; /* Rounded corners for top */
-}
-
-.locations .location-details {
-  padding: 20px;
-  background-color: #fff;
+  font-size: 36px;
   text-align: center;
+  margin-bottom: 30px;
 }
 
-/* Learn More button styles */
+.location-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.location {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer; /* Add cursor pointer */
+  transition: transform 0.3s ease; /* Added transition property */
+}
+
+.location img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.location figcaption {
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.location:hover {
+  transform: translateY(-5px); /* Move the image slightly upwards when hovered */
+}
+
+
 .learn-more-btn {
-  padding: 10px 20px;
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  text-align: center;
   background-color: #007bff;
   color: #fff;
-  text-decoration: none;
+  padding: 10px 20px;
   border-radius: 5px;
-  transition: background-color 0.3s, color 0.3s; /* Add smooth transition */
+  text-decoration: none;
 }
 
 .learn-more-btn:hover {
-  background-color: #0056b3; /* Darker shade of blue on hover */
-}
-
-.learn-more-btn:active {
-  transform: translateY(1px); /* Add slight downward movement when clicked */
+  background-color: #0056b3;
 }
 
 body {
