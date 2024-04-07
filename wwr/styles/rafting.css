@@ -48,7 +48,6 @@ header nav a:hover {
 /*ABOUT US*/
 
 #background-about-us {
-  background-color: cadetblue;
   background-image: url('../images/mountain-background.jpg');
   background-size: cover;
   background-position: center;
@@ -57,88 +56,85 @@ header nav a:hover {
   padding: 100px 0;
 }
 
-#container-about-us h1{
+.container-about-us h1 {
   font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.container-about-us p {
+  font-size: 18px;
 }
 
 /* Main content styles */
-#about-container {
-  max-width: 600px;
-  margin: 20px auto;
+main {
   padding: 20px;
+}
+
+.about-first-image-container {
   text-align: center;
-}
-
-article {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-article p {
-  max-width: 90%;
-  margin: 0 auto;
-  text-align: center;
-}
-
-article img {
+  margin-bottom: 20px;
+  border-radius: 10px;
+  max-width: 500px;
   width: 300px;
   height: auto;
 }
 
-figure {
-  display: block;
-  margin: 1rem;
-  text-align: center;
-}
-
-figure:hover {
-  transform: translateY(-5px);
-}
-
-img {
-  width: auto;
-  height: 200px;
+.about-container {
+  background-color: #fff;
+  padding: 20px;
   border-radius: 10px;
-  display: inline-block;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-figcaption {
-  font-style: italic;
-  margin-top: 0.5rem;
+.about-container article {
+  margin-top: 20px;
+}
+
+.about-container h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.about-container p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* History section styles */
+section h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+section p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
 }
 
 /* Adventures section styles */
 .adventures {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.adventure-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 20px;
-  padding: 20px;
+}
+
+.adventure-grid figure {
   text-align: center;
 }
 
-.adventures figure {
-  margin: 0;
-  text-align: center;
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
-}
-
-.adventures figure:hover {
-  transform: translateY(-5px);
-}
-
-.adventures img {
-  width: auto;
-  height: 285px;
-  border-radius: 10px;
-}
-
-.adventures figcaption {
-  color: #828282;
-  font-style: italic;
+.adventure-grid img {
+  width: 100%;
+  height: auto;
 }
 
 /*CONTACT*/
