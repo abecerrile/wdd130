@@ -78,13 +78,16 @@ main {
   margin: 0 auto 5px;
   padding-bottom: 5px;
   padding-top: 5px;
+  background-color: #007bff;
 }
 
 .about-first-image-container h2 {
-  color: #007bff;
+  color: #fff;
   border-radius: 10px;
   padding-top: 10px;
   padding-bottom: 1px;
+  background-color: #007bff;
+
 }
 
 .about-first-image-container img {
@@ -112,7 +115,7 @@ main {
   font-size: 24px;
   margin-bottom: 10px;
   border-radius: 5px;
-  color: #007bff;
+  color: #333;
   width: 100%;
 }
 
