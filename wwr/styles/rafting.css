@@ -48,7 +48,7 @@ header nav a:hover {
 /*ABOUT US*/
 
 #background-about-us {
-  background-image: url('../images/Happy-Rafter.jpg');
+  background-image: url('../images/mountain-background.jpg');
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -77,15 +77,14 @@ main {
   margin: 0 auto 5px;
   padding-bottom: 5px;
   padding-top: 5px;
-  background-color: #007bff;
+
 }
 
 .about-first-image-container h2 {
-  color: #fff;
+  color: #007bff;
   border-radius: 10px;
   padding-top: 10px;
-  padding-bottom: 1px;
-  background-color: #007bff;
+  padding-bottom: 1px;;
 
 }
 
