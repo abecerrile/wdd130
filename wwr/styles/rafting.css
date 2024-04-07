@@ -76,11 +76,13 @@ main {
   overflow: hidden; /* Ensures the border-radius is applied to the image */
   max-width: 500px;
   margin: 0 auto 20px;
+  padding-top: 10px;
 }
 
 .about-first-image-container h2 {
-  color: #1F3F53;
-  background-color: #F4F9E9;
+  color: #fff;
+  background-color: #1F3F53;
+  border-radius: 5px;
 }
 
 .about-first-image-container img {
