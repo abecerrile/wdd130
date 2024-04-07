@@ -91,11 +91,11 @@ main {
 }
 
 .about-first-image-container img {
-  width: 100%; /* Make the image responsive within the container */
+  width: 100%;
   height: auto;
-  display: block; /* Remove extra spacing beneath the image */
-  border-radius: 10px; /* Apply border-radius to the image itself */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  display: block; 
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 /* About container styles */
