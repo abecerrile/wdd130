@@ -185,6 +185,7 @@ section p {
   background-position: center;
   padding: 100px 0;
   text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow to background */
 }
 
 .background h1 {
@@ -210,6 +211,7 @@ main {
   background-color: #fff;
   padding: 20px;
   border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow to company info */
 }
 
 .company-info h2 {
@@ -235,7 +237,8 @@ main {
   overflow: hidden;
   margin: 0 auto;
   width: 70%;
-  transition: transform 0.3s ease; 
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow to map */
 }
 
 .map:hover {
@@ -253,6 +256,7 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow to Happy Rafters */
 }
 
 .Happy-Rafters figure {
@@ -272,6 +276,7 @@ form {
   overflow: hidden;
   margin: 0 auto;
   width: 40%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .section-h3 {
