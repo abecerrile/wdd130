@@ -253,12 +253,23 @@ main {
 
 .Happy-Rafters img {
   border-radius: 50%;
+  width: 150px; /* Adjusted size for consistency */
+  height: 150px; /* Adjusted size for consistency */
+  border: 3px solid #fff; /* Added border for better contrast */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Added subtle shadow for depth */
+}
+
+.Happy-Rafters figcaption {
+  font-size: 16px; /* Increased font size for readability */
+  margin-top: 10px; /* Adjusted margin for better spacing */
+  font-weight: bold; /* Added bold font weight for emphasis */
 }
 
 form {
   background-color: #fff;
   padding: 20px;
   border-radius: 10px;
+  background-color: #ddd;
 }
 
 form div {
