@@ -260,13 +260,18 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow to Happy Rafters */
+  background-color: #007bff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color:#fff;
+  font-weight: 700;
 }
 
 .Happy-Rafters figure {
   text-align: center;
   margin-bottom: 20px;
   margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .Happy-Rafters img {
