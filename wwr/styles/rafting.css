@@ -234,6 +234,11 @@ main {
   overflow: hidden;
   margin: 0 auto;
   width: 70%;
+  transition: transform 0.3s ease; /* Added transition for smooth hover effect */
+}
+
+.map:hover {
+  transform: scale(1.05); /* Scale up slightly on hover */
 }
 
 .map iframe {
@@ -241,7 +246,6 @@ main {
   height: 500px;
   border: none;
 }
-
 
 .Happy-Rafters {
   display: flex;
