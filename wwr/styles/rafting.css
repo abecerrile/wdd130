@@ -593,6 +593,12 @@ section {
   width: 100%;
   height: auto;
   margin-bottom: 20px;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+
+.grid-item img:hover {
+  transform: scale(1.05);
 }
 
 footer {
