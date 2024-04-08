@@ -215,6 +215,7 @@ main {
 .company-info h2 {
   font-size: 24px;
   margin-bottom: 20px;
+  color: #007bff;
 }
 
 .company-info h3 {
@@ -271,6 +272,10 @@ form {
   overflow: hidden;
   margin: 0 auto;
   width: 40%;
+}
+
+form section h3 {
+  color: #007bff;
 }
 
 form div {
