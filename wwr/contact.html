@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> Rafting Company | Contact Us </title>
+    <title>Rafting Company | Contact Us</title>
     <meta name="description" content="Contact Us page provides a platform for visitors to reach out with inquiries, feedback, or questions.">
     <meta name="author" content="Alberto Becerril">
     <link rel="stylesheet" href="styles/rafting.css" />
@@ -30,30 +30,30 @@
     </div>
 </div>
 
-<main> 
+<main class="grid-container"> 
     <div class="company-info">
-    <section>
-        <h2> Company Information </h2>
-        <h3> Address:</h3>
-        <p> 123 Main Street </p>
-        <p> City, State ZIP Code </p>
-    </section>
+        <section>
+            <h2> Company Information </h2>
+            <h3> Address:</h3>
+            <p> 123 Main Street </p>
+            <p> City, State ZIP Code </p>
+        </section>
 
-    <section>
-        <h3> Phone: </h3>
-        <p> +1 800 451 153 </p>
-    </section>
+        <section>
+            <h3> Phone: </h3>
+            <p> +1 800 451 153 </p>
+        </section>
 
-    <section>
-        <h3> Email: </h3>
-        <p><a href="raftingsite@company.com">raftingsite@company.com</a></p>
-    </section>
+        <section>
+            <h3> Email: </h3>
+            <p><a href="raftingsite@company.com">raftingsite@company.com</a></p>
+        </section>
     </div>
+    
     <div class="map">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3073.435261286804!2d-106.07674232428784!3d39.61740247157931!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876a5d4c99388cbf%3A0x2065fc1208e05d67!2sColorado%20Rafting%20Company!5e0!3m2!1ses-419!2smx!4v1712013234678!5m2!1ses-419!2smx" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
-</main>
-    <h2>Happy Rafters</h2>
+
     <section class="Happy-Rafters">    
         <figure>
             <img src="images/thomas-cliff.jpg" alt="Thomas Cliff" width="300">
@@ -70,39 +70,41 @@
             <figcaption>Ethan Balboa</figcaption>
         </figure>
     </section>
-<main>
-    <h2> Contact Information </h2>
 
-    <form action="#" method="post">
-        <div>
-            <label for="name"> Please enter your name: </label>
-            <textarea id="name" name="Q1" rows="4" cols="50"></textarea>
-        </div>
-        <div>
-            <label for="email"> Please enter your email address: </label>
-            <input type="text" id="email" name="Q2">
-        </div>
-        <div>
-            <label>
-                <input type="radio" id="inquiry" name="User Contact" value="General Inquiry" checked>
-                General Inquiry
-            </label><br>
-            <label>
-                <input type="radio" id="reservation" name="User Contact" value="Reservation Quesitons">
-                Reservation Quesitons
-            </label><br>
-            <label>
-                <input type="radio" id="suggestion" name="User Contact" value="Website Suggestion">
-                Website Suggestion
-            </label><br>
-        </div>
-        <div>
-            <label>Please subscribe me to the monthly newsletter</label>
+    <section>
+        <h2> Contact Information </h2>
+
+        <form action="#" method="post">
+            <div>
+                <label for="name"> Please enter your name: </label>
+                <textarea id="name" name="Q1" rows="4" cols="50"></textarea>
+            </div>
+            <div>
+                <label for="email"> Please enter your email address: </label>
+                <input type="text" id="email" name="Q2">
+            </div>
+            <div>
+                <label>
+                    <input type="radio" id="inquiry" name="User Contact" value="General Inquiry" checked>
+                    General Inquiry
+                </label><br>
+                <label>
+                    <input type="radio" id="reservation" name="User Contact" value="Reservation Questions">
+                    Reservation Questions
+                </label><br>
+                <label>
+                    <input type="radio" id="suggestion" name="User Contact" value="Website Suggestion">
+                    Website Suggestion
+                </label><br>
+            </div>
+            <div>
+                <label>Please subscribe me to the monthly newsletter</label>
                 <input type="checkbox" id="subscribe" name="subscribe" value="yes">
-        </div>
+            </div>
 
-        <button type="submit" id="submit">Submit Quiz</button>
-    </form>
+            <button type="submit" id="submit">Submit Quiz</button>
+        </form>
+    </section>
 </main>
 
 <footer>
