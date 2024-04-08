@@ -200,9 +200,7 @@ section p {
 }
 
 main {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 30px;
+  display: block; /* Change to block to stack elements vertically */
   padding: 20px;
 }
 
@@ -210,6 +208,7 @@ main {
   background-color: #fff;
   padding: 20px;
   border-radius: 10px;
+  margin-bottom: 30px; /* Add margin bottom for spacing */
 }
 
 .company-info h2 {
@@ -233,6 +232,7 @@ main {
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added shadow for depth */
+  margin-bottom: 30px; /* Add margin bottom for spacing */
 }
 
 .map iframe {
@@ -243,9 +243,9 @@ main {
 }
 
 .Happy-Rafters {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: block; /* Change to block to stack elements vertically */
+  text-align: center; /* Center-align content */
+  margin-bottom: 30px; /* Add margin bottom for spacing */
 }
 
 .Happy-Rafters figure {
@@ -254,9 +254,9 @@ main {
 }
 
 .Happy-Rafters img {
-  border-radius: 50%;
-  width: 150px; /* Adjusted size for consistency */
-  height: 150px; /* Adjusted size for consistency */
+  border-radius: 10px;
+  width: 300px; /* Adjusted size for consistency */
+  height: auto; /* Adjusted size for consistency */
   border: 3px solid #fff; /* Added border for better contrast */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Added subtle shadow for depth */
 }
